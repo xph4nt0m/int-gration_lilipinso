@@ -1,0 +1,101 @@
+@use "reset";
+@use "token";
+@use "header";
+@use "banner";
+@use "navbar";
+@use "logo";
+
+//______________BODY______________//
+
+body {
+    font: token.$font;
+    background-color: token.$bg_color;
+    color: token.$font_color; 
+}
+
+//______________MAIN_____________//
+
+main {
+    padding: 7rem 13rem 0 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+//____________PRODUCTS__________//
+.products_onsale {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-bottom: 2em;
+}
+
+.price_products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13rem;
+    margin-bottom: 5em;
+}
+
+.price_products div {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.price_products p {
+    font-weight: bold;
+
+}
+
+span {
+    padding-right: 2rem;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: grey;
+    text-decoration: line-through;
+}
+
+//_________SECTION1___________//
+
+h3 {
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.lorem {
+    font-size: 0.9em;
+    text-align: center;
+    font-style:italic;
+    margin: 2rem 0 3rem 0;
+}
+
+//____________SECTION2__________//
+
+.section2 {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.section2 img {
+    margin-bottom: 3rem;
+}
+
+.section2 p {
+    text-align: left;
+}
+
+.section2 h2 {
+    text-align: center;
+}
+
+.title_section2 {
+    padding: 1rem;
+}

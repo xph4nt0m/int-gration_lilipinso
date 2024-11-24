@@ -1,0 +1,81 @@
+@use "reset";
+@use "token";
+
+//____________MAIN_NAVBAR____________//
+
+main nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main nav ul {
+    margin-bottom: 3rem;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    width:100%;
+}
+
+main nav ul a {
+    font-weight: bold;
+}
+
+main nav div {
+ display: flex;
+ gap: 2rem;
+ align-items: center;
+}
+
+main nav ul a img {
+    border-right: 1px solid grey;
+    padding-right: 1rem; 
+}
+
+.navbar_icons {
+    gap: 1rem;
+}
+
+.navbar_tabs {
+    padding-left: 5rem;
+    font-size: 0.8rem;
+    gap: 2rem;
+}
+
+.navbar_tabs a:hover {
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+}
+
+.navbar_settings {
+    font-size: 0.7rem;
+}
+
+
+//_________ALT_NAVBAR_________//
+
+h1 {
+    font-size: 1.3em;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.featured_products {
+    width: 100%;
+    margin-right: 2.5rem;
+}
+
+.alt_navbar {
+    display: flex;
+    background-image: url(./../assets/images/ptitmenu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5em 0 3.5em 1em;
+}
+
+.alt_navbar p {
+    color: gray;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+}

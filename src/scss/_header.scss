@@ -1,0 +1,22 @@
+@use "reset";
+@use "token";
+
+
+header {
+    background-color: token.$font_color;
+    color: rgba(100,100,100);
+    width: 100%;
+    height: 1.7rem;
+    position: fixed; 
+    display: flex;
+    font-size: 0.5rem;
+    font-style: italic;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem 0 6rem; 
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}  
