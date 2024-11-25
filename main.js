@@ -242,7 +242,7 @@ eval("module.exports = __webpack_require__.p + \"5bda063704391970dbd5.png\";\n\n
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "integration_lilipinso";
+/******/ 		__webpack_require__.p = "/integration_lilipinso/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
